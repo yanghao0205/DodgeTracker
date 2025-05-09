@@ -7,7 +7,7 @@
 <img src="https://i.imgur.com/IRVVf51.png" width="400" alt="中文匹配警告"/>  
 <img src="https://i.imgur.com/k0pcQy1.png" width="400" alt="中文设置界面"/>
 
-**英文界面**  
+**English Main UI**  
 <img src="https://i.imgur.com/GXgtmfK.png" width="600" alt="English Main UI"/>  
 <img src="https://i.imgur.com/7ITVXGI.png" width="400" alt="English Add Player"/>  
 <img src="https://i.imgur.com/ZqoOpKA.png" width="400" alt="English Right-click Menu"/>  
