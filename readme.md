@@ -1,24 +1,37 @@
-# DodgeTracker
-
-## How to install
-- Download and install [Pengu Loader](https://github.com/PenguLoader/PenguLoader) (Version >= 1.1.0)
-- Download the dodge-tracker.js on release page and put it in **plugins** folder
-
-## How to add players to dodge list?
-- Open league settings
-- Search for the Dodge Tracker tab
-- Write the player Name#TAG and press enter
-
-- Or just right click user in post game or match history
-
 ## Showcase
-<p>
-<img align="right" src="https://imgur.com/kV5AwtN" alt="image" />
-<img src="https://media.discordapp.net/attachments/1189693072548839464/1189693073198940231/image.png?ex=659f1704&is=658ca204&hm=92b6301599881d938f9965d399dcbfc20ce94d6a2ebdc2438b38fc11cdfc8502&=&format=webp&quality=lossless" alt="image" />
-<img src="https://media.discordapp.net/attachments/1189693072548839464/1189693073538695249/image.png?ex=659f1704&is=658ca204&hm=7f9ed76b958a56d2ac71f6a8eb8d4f096573adb0817e8d52e24fd7b845ab87e1&=&format=webp&quality=lossless" alt="image" />
-<img src="https://media.discordapp.net/attachments/862669234457542656/1190436559565095013/image.png?ex=65a1cb71&is=658f5671&hm=ec3d380f5024212365e6858e1a5d13883d43ce41bf7d15ab2acd67fa18bddf9e&=&format=webp&quality=lossless" alt="image" />
+
+### 主界面与核心功能
+<p align="center">
+  <img src="https://i.imgur.com/kV5AwtN.png" alt="Dodge Tracker 主界面" width="600" />
+  <br/><em>主界面 - 实时显示躲避列表中的玩家状态</em>
 </p>
 
-## Credits
-- [Seiku](https://github.com/vergonha) - First Version 
-- @unproductive - post game and match history menu button
+### 添加玩家到躲避列表
+<div align="center">
+  <img src="https://i.imgur.com/LsMOBvZ.png" alt="手动输入玩家名称" width="400" />
+  <img src="https://i.imgur.com/iIAvz7S.png" alt="右键菜单快速添加" width="400" /> 
+  <br/>
+  <em>左：通过设置页手动添加 | 右：比赛历史右键快速操作</em>
+</div>
+
+### 动态检测与提醒
+<p>
+  <img align="right" src="https://i.imgur.com/IRVVf51.png" alt="排位匹配提醒" width="300" />
+  <strong>实时监控功能：</strong><br/>
+  - 自动检测队列中的回避玩家<br/>
+  - 弹窗警告并显示最后相遇对局<br/>
+  - 支持一键取消匹配
+</p>
+
+<div style="clear:both;"></div>
+
+### 高级设置选项
+| 功能配置 | 历史记录管理 |
+|----------|--------------|
+| <img src="https://i.imgur.com/k0pcQy1.png" alt="设置选项" width="100%"> | <img src="https://i.imgur.com/GXgtmfK.png" alt="记录管理" width="100%"> |
+| 自定义检测灵敏度/通知方式 | 查看/导出历史躲避记录 |
+
+### 多场景适配
+![游戏内覆盖层](https://i.imgur.com/7ITVXGI.png "游戏内悬浮窗显示风险玩家")
+![客户端整合](https://i.imgur.com/ZqoOpKA.png "与 League 客户端的深度集成")
+
